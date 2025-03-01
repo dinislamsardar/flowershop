@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar {
+    background-color: rgb(196, 195, 195);
+}
+
+.logo {
+    height: 50px;
+}
+
+.manu {
+    list-style: none;
+    float: right;
+    margin-right: 10px;
+}
+
+.manu li {
+    display: inline-block;
+}
+
+.manu a {
+    text-decoration: none;
+    color: black;
+}
+
+.color-change {
+    color: rgb(204, 47, 47) !important;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-text {
+    width: 70%;
+    margin-left: 15%;
+    color: #3b3b3b;
+}
