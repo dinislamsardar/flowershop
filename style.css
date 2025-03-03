@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .main-navbar {
@@ -42,4 +43,42 @@ body {
     width: 70%;
     margin-left: 15%;
     color: #3b3b3b;
+}
+
+.center {
+    text-align: center;
+}
+
+.product-dev {
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background-color: rgb(217, 221, 224);
+}
+
+.product-dev img {
+    width: 100%;
+    height: 400px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.footer-manu {
+    list-style: none;
+}
+
+.footer-manu li {
+    display: inline-block;
+}
+
+.footer-manu a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    background-color: gray;
+    padding: 50px 0;
 }
